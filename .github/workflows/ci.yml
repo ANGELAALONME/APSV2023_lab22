@@ -65,7 +65,7 @@ jobs:
 
           registry: ghcr.io
 
-          username: "yourGitHubUsername"
+          username: "ANGELAALONME"
 
           password: ${{ secrets.PAT }}
 
@@ -81,6 +81,6 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/yourGitHubUsername/tos:latest
+          tags: ghcr.io/ANGELAALONME/tos:latest
           
-    - run: ls ${GITHUB_WORKSPACE}/target/*.jar
+    - run: ls ${https://github.com/ANGELAALONME/APSV2023_lab22/edit/ANGELAALONME-patch-1}/target/*.jar
